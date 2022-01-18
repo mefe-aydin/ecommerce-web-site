@@ -14,7 +14,7 @@ const CartItem = ({ item, onUpdateCartQty, onRemoveFromCart }) => {
   const classes = useStyles();
   console.log("sadas");
   return (
-    <Card>
+    <Card className="cart-item">
       <CardMedia
         image={item.img.url}
         alt={item.name}

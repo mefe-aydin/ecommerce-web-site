@@ -28,7 +28,7 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
                 <div>
                     <Button className={classes.emptyButton} size="large" type="button" variant="contained" 
                         color="secondary" onClick={handleEmptyCart}>
-                        Empty Cartd
+                        Empty Cart
                     </Button>
                     <Button component={Link} to="/checkout" className={classes.checkoutButton} size="large" type="button" variant="contained" 
                         color="primary">
